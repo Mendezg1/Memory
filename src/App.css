@@ -1,11 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
 .App{
     max-width: 900px;
     margin: 40px auto;
 }
 
+h2{
+    position: absolute;
+    top: 525px;
+    left: 350px;
+    color:darkgreen;
+    font-size: 75px;
+    display: none;
+}
+
 button{
+    font-family: Sigmar, sans-serif;
     background: #7cd509;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 6px 12px;
     border-radius: 3px;
     font-weight: bold;
@@ -22,8 +34,6 @@ button:hover{
 .Tablero{
     margin-top: 40px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-    position: absolute;
-    left: 430px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 50px;
 }
