@@ -67,11 +67,13 @@ function App(){
       }))
     }
 
-    if(setFinal()[11] == 12){
-      document.getElementById("final").style.display = "block"
-    }
-    else{
-      document.getElementById("final").style.display = "none"
+    if(document.getElementById("final") != null){
+      if(setFinal()[11] == 12){
+        document.getElementById("final").style.display = "block"
+      }
+      else{
+        document.getElementById("final").style.display = "none"
+      }
     }
 
     return(
