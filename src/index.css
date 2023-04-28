@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+body{
+    font-family: Sigmar, sans-serif;
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #A5d765;
+    color: black;
+}
